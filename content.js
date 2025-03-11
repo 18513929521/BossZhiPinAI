@@ -69,6 +69,7 @@ floatingBall.addEventListener('click', function () {
 });
 
 //=======================分割线===========================
+//测试AI账户手动提交代码
 // 全局变量存储职位信息
 let jobsData = [];
 let selectedOption = 'all'
