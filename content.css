@@ -1,0 +1,229 @@
+.boss-assistant-notification {
+  position: fixed;
+  top: 200px;
+  right: -20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+  max-width: 300px;
+}
+
+.boss-assistant-notification h3 {
+  margin-top: 0;
+  color: #00b38a;
+}
+
+.boss-assistant-notification button {
+  background-color: #00b38a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.boss-assistant-notification button:hover {
+  background-color: #009a74;
+} 
+
+/* ===============分割线==================== */
+/* 悬浮球 */
+.myYouhua{
+
+  .floating-ball {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    top: 10%;
+    /* border-radius: 50%; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  
+  .floating-ball .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 34%;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+    /* background-image: url('./images/icon16.png');
+    background-size: cover; */
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    top: 20%;
+    /* border-radius: 50%; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: 10000;
+    height: max-content;
+  }
+  
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #00b38a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #009a74;
+  }
+  
+  .export-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  #number-input {
+    display: none;
+  }
+  
+  #number-input.show {
+    display: block;
+  }
+  
+  #fetch-button {
+    display: block;
+  }
+  
+  #fetch-button.hide {
+    display: none;
+  }
+  
+  /* popup.css */
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  #login-status {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  button {
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 5px;
+  }
+  
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  #job-export {
+    text-align: center;
+  }
+  
+  .export-options {
+    margin-bottom: 5px;
+  }
+  
+  #export-format {
+    margin-left: 5px;
+  }
+  
+  #retrieve-resume {
+    font-weight: bold;
+    /* 加粗数字 */
+    color: #FF5733;
+    /* 改变数字颜色 */
+    font-size: 1.5em;
+    /* 增大数字字体 */
+    margin: 0px 5px;
+  }
+  
+  #recommend-message {
+    font-weight: bold;
+    /* 加粗数字 */
+    color: #00b38a;
+    /* 改变数字颜色 */
+    font-size: 1.5em;
+    /* 增大数字字体 */
+    margin: 0px 5px;
+  }
+
+}
+
+
+
+/* ===============分割线==================== */
